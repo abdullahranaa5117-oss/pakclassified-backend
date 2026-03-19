@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: true }));
 
 
 app.use(cors({
-  origin: "http://localhost:4173",
+  origin: "https://pakclassified-frontend.vercel.app",
   credentials: true
 }));
 
